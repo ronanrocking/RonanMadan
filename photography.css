@@ -1,0 +1,100 @@
+
+@import url('http://fonts.cdnfonts.com/css/blacker-sans-display-trial'); /*'Blacker Sans Display Trial'*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap'); /*Catamaran*/
+
+
+body{
+    margin: 0;
+    padding: 0%;
+    height: 100vh;
+    width: vw;
+    overflow-y: auto;
+    overscroll-behavior-x: none;
+    font-family: 'Blacker Sans Display Trial';
+}
+div.section{
+    border: 0px solid;
+    border-color:black;
+
+    width: 100%;
+    height: auto;
+
+}
+div.section#Main{
+    background-image: url(/Images/output-onlinegiftools.gif);
+    background-color: rgba(255, 255, 255, 0.816);
+    
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: none;
+
+
+    justify-content: center;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    div.section#Main h1{
+        display: unset;
+        font-size: 60px;
+        font-weight: 350;
+        border-bottom: 0px solid;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 7px;
+        margin-top: 100px;
+        margin-bottom: 2px;
+        letter-spacing: 15px;
+        color: white;
+        
+        height: min-content;
+        
+        text-align: center;
+    }
+
+    div.section#Footer{
+        background-color:black;
+        height: auto;
+        width: 100%;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+   
+
+    }
+        div.section#Footer div.Contact{
+            border-right: 1px solid;
+            border-color: white;
+            height: min-content;
+            text-align: right;
+            padding-right: 20px;
+            margin-right: 20px;
+        }
+            div.section#Footer div.Contact p{
+                color: white;
+                letter-spacing: 5px;
+                font-size: 17px;
+                font-weight: 200;
+                text-decoration:none;
+
+            }
+         div.section#Footer div.ContactNot{
+            border-right: 0px solid;
+            border-color: white;
+            height: 100px;
+            text-align: left;
+            
+        }
+                div.section#Footer div.ContactNot p{
+                    color: white;
+                    letter-spacing: 5px;
+                    font-size: 17px;
+                    font-weight: 200;
+
+                }
