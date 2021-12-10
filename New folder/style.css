@@ -1,0 +1,611 @@
+
+@import url('http://fonts.cdnfonts.com/css/blacker-sans-display-trial'); /*'Blacker Sans Display Trial'*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap'); /*Catamaran*/
+
+.Mobile_Only{
+    display: none;
+}
+
+body{
+
+    height: 100vh;
+    width: vw;
+    overflow-y: auto;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Blacker Sans Display Trial';
+
+}
+
+div.section{
+    border: 0px solid;
+    border-color:black;
+
+    width: 100%;
+    height: 100vh;
+
+}
+div.section#Home{
+    background-image: url(/Images/output-onlinegiftools.gif);
+    background-color: rgba(255, 255, 255, 0.816);
+    
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+    div.section *{
+    
+    }
+    div.section#Home img#bnnr{
+        border: 0px solid;
+        
+
+        width: 100%;
+        height: auto;
+
+    }
+    div.section#Home div div.containerC#Bnnr h1#bnnr_M{
+        display: unset;
+        font-size: 100px;
+        font-weight: 350;
+        border-bottom: 0px solid;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 7px;
+        margin-bottom: 2px;
+        letter-spacing: 5px;
+    }
+    div.section#Home p{
+        
+        letter-spacing: 6px;
+        font-size: 20px;
+        font-family: 'Catamaran';
+    
+    }
+    div.section#Home div.containerC{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    div.section#Home div.containerC#subBnnr{
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+        border: 0px solid;
+        
+    }
+        div.section#Home div.containerC#subBnnr p{
+
+            border: 0px solid;
+            font-size: 20px;
+            
+        }
+
+
+
+
+    div.section#About{
+        background-color:black;
+        height: auto;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 130px;
+        
+   
+
+    }
+        div.section#About h1#About{
+            color: white;
+            font-weight: 100;
+            font-size: 40px;
+            padding-left: 100px;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 5px;
+        }
+        div.section#About p#About{
+            color: white;
+            letter-spacing: 4px;
+            font-size: 20px;
+            font-family: 'Catamaran';
+
+            margin-top: 40px;
+            padding-left: 100px;
+            padding-right: 100px;
+            
+            text-align: justify;
+
+            
+
+        }
+        div.section#About h2#About{
+            color: white;
+            margin-top: 20px;
+            
+            text-align: center;
+            font-weight: 200;
+            letter-spacing: 4px;
+            font-size: 27px;
+            text-decoration: underline;
+            text-decoration-thickness:1px;
+            text-underline-offset: 5px;
+
+        }
+        div.section#About div#break{
+            flex-basis: 100%;
+            height: 30px;
+            border: 0px solid;
+            border-color: red;
+        }
+        div.section#About div.containerC#About{
+            border: 0px solid;
+            border-color: red;
+            margin-top: 10px;
+            
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+
+        div.section#About div.containerC#About div.ugh{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        div.section#About div.containerC#About div.list{
+            border-left: 1px solid;
+            border-right: 1px solid;
+            border-color: rgb(128, 128, 128);
+            
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 30px;
+            
+            padding-left: 30px;
+ 
+            flex-grow: 1;
+            width: max-content;
+            color: white;
+            font-family: 'Catamaran';
+            font-weight: 200;
+            font-size: 20px;
+ 
+        }
+
+
+
+
+
+
+
+
+    div.section#Projects{
+        background-image: url(/Images/output-onlinegiftools.gif);
+        background-color: rgba(255, 255, 255, 0.816);
+        
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-color: none;
+    
+        padding-top: 60px;
+
+        justify-content: center;
+
+        height: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        div.section#Projects h1{
+            display: unset;
+            font-size: 60px;
+            font-weight: 350;
+            border-bottom: 0px solid;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 7px;
+            margin-bottom: 2px;
+            margin-top: 50px;
+            letter-spacing: 5px;
+        }
+        div.section#Projects div.containerC{
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        div.section#Projects div.containerC#Main{
+            margin-top: 30px;
+            border: 0px solid;
+            width: 100%;
+
+
+            box-sizing: border-box;
+            
+        }
+            div.section#Projects a.containerC#Item{
+                margin-top: 0px;
+                margin-bottom: 20px;
+                border: 0px solid;
+                margin-left: 3%;
+                margin-right: 3%;
+                width: 40%;
+                height: 300px;
+
+                color: black;
+                text-decoration: none;
+                
+                background-color: rgba(255, 255, 255, 0.5);
+                
+                background-blend-mode: overlay;
+                background-size: cover;
+                background-color: none;
+            
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                transition: 0.2s;
+                
+            }
+
+            div.section#Projects a.containerC#Item:hover{
+
+
+
+                
+                background-color: rgba(255, 255, 255, 0.2);
+                color:rgba(255, 255, 255, 0.849) ;
+                
+                
+                background-blend-mode: overlay;
+                background-size: cover;
+                background-color: none;
+            
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+
+
+
+
+
+    div.section#Footer{
+        background-color:black;
+        height: auto;
+        width: 100%;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+   
+
+    }
+        div.section#Footer div.Contact{
+            border-right: 1px solid;
+            border-color: white;
+            height: min-content;
+            text-align: right;
+            padding-right: 20px;
+            margin-right: 20px;
+        }
+            div.section#Footer div.Contact p{
+                color: white;
+                letter-spacing: 5px;
+                font-size: 17px;
+                font-weight: 200;
+                text-decoration:none;
+
+            }
+         div.section#Footer div.ContactNot{
+            border-right: 0px solid;
+            border-color: white;
+            height: 100px;
+            text-align: left;
+            
+        }
+                div.section#Footer div.ContactNot p{
+                    color: white;
+                    letter-spacing: 5px;
+                    font-size: 17px;
+                    font-weight: 200;
+
+                }
+
+
+
+@media (max-width: 615px) {
+    body{
+        
+    }
+    .No_Mobile{
+        display: none;
+    }
+    div.section#Home{
+         
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+        .Mobile_Only{
+            display: unset;}
+        
+        div.section#Home img#bnnr{
+            border: 0px solid;
+            display: none;
+
+            width: 100%;
+            height: auto;
+
+        }
+        div.section#Home h1#bnnr_M{
+            display: unset;
+            width: 800%;
+            height: auto;
+        }
+        div.section#Home div.containerC#subBnnr p{
+            padding-left: 10%;
+            padding-right: 10%;
+            border: 0px solid;
+            font-size: 15px;
+            display: none;
+            
+        }
+        div.section#Home div.containerC#subBnnr p.Mobile_Only{
+            padding-left: 5%;
+            padding-right: 5%;
+            border: 0px solid;
+            font-size: 15px;
+            display: unset;
+            margin-top: 10px;
+            font-weight: 600;
+            
+        }
+        div.section#Home div div.containerC#Bnnr h1#bnnr_M{
+            display: unset;
+            margin: 0px;
+            padding-left: 25px;
+            padding-right: 25px;
+
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 5px;
+
+            font-weight: 400;
+            FONT-size: 50px;
+
+
+            
+            
+        }
+        div.section#Home div.containerC{
+            
+
+        }
+
+    div.section#About{
+        background-color:black;
+        height: auto;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 70px;
+   
+
+    }
+        div.section#About h1#About{
+            color: white;
+            font-weight: 100;
+            font-size: 40px;
+            padding: 0;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 5px;
+        }
+        div.section#About p#About{
+            color: white;
+            letter-spacing: 4px;
+            font-size: 15px;
+            font-family: 'Catamaran';
+
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+            text-align: justify;
+
+            
+
+        }
+
+        div.section#About div.containerC#About div.list{
+            border-left: 1px solid;
+            border-right: 1px solid;
+            border-top: 1px solid;
+            border-color: rgb(128, 128, 128);
+            
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 30px;
+            
+            padding-left: 30px;
+            padding-top: 10px;
+
+            flex-grow: 1;
+            width: 225px;
+            color: white;
+            font-family: 'Catamaran';
+            font-weight: 200;
+            font-size: 20px;
+
+        }
+
+
+    
+    
+        div.section#Projects{
+            background-image: url(/Images/output-onlinegiftools.gif);
+            background-color: rgba(255, 255, 255, 0.816);
+            
+            background-blend-mode: overlay;
+            background-size: cover;
+            background-color: none;
+        
+    
+            justify-content: center;
+    
+            height: auto;
+        
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+        div.section#Projects h1{
+                display: unset;
+                font-size: 45px;
+                font-weight: 550;
+                border-bottom: 0px solid;
+                text-decoration: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 7px;
+                margin-bottom: 2px;
+                margin-top: 0px;
+                letter-spacing: 5px;
+        }
+        div.section#Projects div.containerC{
+                width: 100%;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+        }
+        div.section#Projects div.containerC#Main{
+                margin-top: 30px;
+                border: 0px solid;
+                width: 100%;
+                padding-left: 5%;
+                padding-right: 5%;
+    
+                box-sizing: border-box;
+                
+        }
+            div.section#Projects a.containerC#Item{
+                    margin-top: 0px;
+                    border: 1px solid;
+                    
+                    width: 500px;
+                    height: 300px;
+                    
+            }
+    
+        
+}  
+
+@media  (min-width:615px) and (max-width: 1200px) {
+    .Mobile_Only{
+        display: none;
+    }
+
+    div.section#Home div.containerC#subBnnr p{
+        padding-left: 17%;
+        padding-right: 15%;
+        border: 0px solid;
+        font-size: 17px;}
+
+    div.section#Home div div.containerC#Bnnr h1#bnnr_M{
+        display: unset;
+        font-size: 70px;
+        font-weight: 350;
+        border-bottom: 0px solid;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 7px;
+        margin-bottom: 2px;}
+
+
+    div.section#About div.containerC#About{
+            border: 0px solid;
+            border-color: red;
+            margin-top: 10px;
+            
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            padding-left: 4%;
+            padding-right: 4%;}
+
+
+    div.section#About div.containerC#About div.list{
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-color: rgb(128, 128, 128);
+        
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 50px;
+        
+        padding-left: 30px;
+        padding-top: 10px;
+
+        flex-grow: 1;
+        width: 200px;
+        color: white;
+        font-family: 'Catamaran';
+        font-weight: 200;
+        font-size: 20px;
+
+    }
+    div.section#About div.containerC#About div.ugh{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
+
